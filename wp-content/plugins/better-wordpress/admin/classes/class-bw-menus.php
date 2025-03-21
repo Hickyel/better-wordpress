@@ -51,11 +51,43 @@ class BW_Menus {
         }
 
         ?>
+
         <div class="wrap">
-            <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
-            <p><?php esc_html_e('Welcome to Better WordPress settings.', 'better-wordpress'); ?></p>
+            <?php
+                function bw_enqueue_react_assets($hook_suffix) {
+                    // Remplace 'toplevel_page_bw_options' par le hook approprié
+                    if ($hook_suffix !== 'toplevel_page_bw_options') {
+                        return;
+                    }
+                
+                    $build_url = plugin_dir_url(__FILE__) . '../assets/react-build/';
+                
+                    wp_enqueue_style(
+                        'bw-react-style',
+                        $build_url . 'assets/index.css',
+                        [],
+                        null
+                    );
+                
+                    wp_enqueue_script(
+                        'bw-react-app',
+                        $build_url . 'assets/index.js',
+                        [],
+                        null,
+                        true
+                    );
+                
+                    // Ajouter le conteneur pour l'application React
+                    add_action('admin_footer', function () {
+                        echo '<div id="bw-react-root"></div>';
+                    });
+                }
+                add_action('admin_enqueue_scripts', 'bw_enqueue_react_assets');
+            ?>
         </div>
         <?php
+        
+        
     }
 
     /**
