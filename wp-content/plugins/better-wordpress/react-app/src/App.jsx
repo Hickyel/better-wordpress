@@ -1,10 +1,11 @@
 import React from 'react'
+import Header from './components/Header'
 
 const App = () => {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>🎉 Better WordPress est connecté à React !</h1>
-      <p>Tu peux maintenant développer ton interface dynamique ici.</p>
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <Header />
+      <h2>🎉 React est connecté à WordPress !</h2>
     </div>
   )
 }

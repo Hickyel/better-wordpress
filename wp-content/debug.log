@@ -851,3 +851,29 @@ Stack trace:
 [21-Mar-2025 20:10:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wpdb.php on line 1982
 [21-Mar-2025 20:10:21 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114
 [21-Mar-2025 20:35:39 UTC] PHP Fatal error:  Cannot redeclare bw_enqueue_react_assets() (previously declared in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php:16) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 66
+[21-Mar-2025 20:51:13 UTC] PHP Fatal error:  Cannot redeclare bw_enqueue_react_assets() (previously declared in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php:16) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 59
+[21-Mar-2025 20:53:36 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:53:36 UTC] PHP Fatal error:  Cannot redeclare bw_enqueue_react_assets() (previously declared in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php:16) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 59
+[21-Mar-2025 20:53:41 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:53:53 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:53:54 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:54:11 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:54:12 UTC] hook_suffix: better-wp_page_bw-settings
+[21-Mar-2025 20:54:14 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:58:12 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:58:42 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 20:59:46 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 21:11:21 UTC] hook_suffix: better-wp_page_bw-settings
+[21-Mar-2025 21:11:23 UTC] hook_suffix: toplevel_page_better-wordpress
+[21-Mar-2025 21:16:10 UTC] hook_suffix: index.php
+[21-Mar-2025 21:16:12 UTC] hook_suffix: toplevel_page_bw_dashboard
+[21-Mar-2025 21:16:14 UTC] hook_suffix: better-wp_page_bw_settings
+[21-Mar-2025 21:17:40 UTC] hook_suffix: toplevel_page_bw_dashboard
+[21-Mar-2025 21:30:48 UTC] Automatic updates starting...
+[21-Mar-2025 21:30:49 UTC]   Automatic plugin updates starting...
+[21-Mar-2025 21:30:49 UTC]   Automatic plugin updates complete.
+[21-Mar-2025 21:30:49 UTC] Automatic updates complete.
+[21-Mar-2025 21:34:29 UTC] hook_suffix: toplevel_page_bw_dashboard
+[21-Mar-2025 21:34:55 UTC] hook_suffix: better-wp_page_bw_settings
+[21-Mar-2025 21:34:56 UTC] hook_suffix: toplevel_page_bw_dashboard
+[21-Mar-2025 21:36:45 UTC] hook_suffix: toplevel_page_bw_dashboard

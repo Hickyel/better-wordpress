@@ -1,10 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+import DashboardApp from './components/DashboardApp'
+import SettingsApp from './components/SettingsApp'
 
-const root = document.getElementById('bw-react-root')
+const dashboardRoot = document.getElementById('bw-dashboard-root')
+const settingsRoot = document.getElementById('bw-settings-root')
 
-if (root) {
-  ReactDOM.createRoot(root).render(<App />)
+if (dashboardRoot) {
+  ReactDOM.createRoot(dashboardRoot).render(<DashboardApp />)
+}
+
+if (settingsRoot) {
+  ReactDOM.createRoot(settingsRoot).render(<SettingsApp />)
 }

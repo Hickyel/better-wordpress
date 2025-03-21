@@ -23,60 +23,39 @@ class BW_Menus
     /**
      * Register admin menus
      */
-    public function register_menus()
-    {
+    public function register_menus() {
         add_menu_page(
             __('Better WordPress', 'better-wordpress'),
             __('Better WP', 'better-wordpress'),
             'manage_options',
-            'better-wordpress',
-            array($this, 'main_page'),
+            'bw_dashboard',
+            [$this, 'display_dashboard_page'],
             'dashicons-admin-generic',
-            30
+            20
         );
-
+    
         add_submenu_page(
-            'better-wordpress',
-            __('Settings Better WordPress', "better-wordpress"),
-            __('Settings', "better-wordpress"),
+            'bw_dashboard',
+            __('Réglages', 'better-wordpress'),
+            __('Réglages', 'better-wordpress'),
             'manage_options',
-            'bw-settings',
-            array($this, 'display_settings_page')
+            'bw_settings',
+            [$this, 'display_settings_page']
         );
     }
-
-    /**
-     * Display main admin page
-     */
-    public function main_page()
-    {
+    
+    public function display_dashboard_page() {
         echo '<div class="wrap">';
-        echo '<h1>Hello from Better WordPress</h1>';
-        echo '<div id="bw-react-root"></div>'; // <-- C’est ici que React se montera
+        echo '<h1>Better WP Dashboard</h1>';
+        echo '<div id="bw-dashboard-root"></div>'; // 🔹 React App 1
         echo '</div>';
     }
-
-    /**
-     * Display settings page
-     */
-    public function display_settings_page()
-    {
-        // Check user capabilities
-        if (!current_user_can('manage_options')) {
-            return;
-        }
-
-        ?>
-        <div class="wrap">
-            <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
-            <form method="post" action="options.php">
-                <?php
-                settings_fields('better-wordpress-settings');
-                do_settings_sections('better-wordpress-settings');
-                submit_button();
-                ?>
-            </form>
-        </div>
-<?php
+    
+    public function display_settings_page() {
+        echo '<div class="wrap">';
+        echo '<h1>Better WP Réglages</h1>';
+        echo '<div id="bw-settings-root"></div>'; // 🔹 React App 2
+        echo '</div>';
     }
+    
 }
