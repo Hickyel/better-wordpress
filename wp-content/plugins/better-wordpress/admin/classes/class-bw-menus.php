@@ -50,20 +50,10 @@ class BW_Menus
      */
     public function main_page()
     {
-        // Check user capabilities
-        if (!current_user_can('manage_options')) {
-            return;
-        }
-
-?>
-
-        <div class="wrap">
-            <h1>Interface React</h1>
-            <div id="bw-react-root"></div>
-        </div>
-
-        <?php
-
+        echo '<div class="wrap">';
+        echo '<h1>Hello from Better WordPress</h1>';
+        echo '<div id="bw-react-root"></div>'; // <-- C’est ici que React se montera
+        echo '</div>';
     }
 
     /**
