@@ -1,0 +1,663 @@
+[16-Mar-2025 18:10:20 UTC] PHP Warning:  Array to string conversion in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 106
+[16-Mar-2025 18:10:20 UTC] Download URL: Array
+[16-Mar-2025 18:10:20 UTC] PHP Warning:  Array to string conversion in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 118
+[16-Mar-2025 18:10:20 UTC] Download URL: Array
+[16-Mar-2025 18:10:20 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(120): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 18:11:29 UTC] PHP Warning:  Array to string conversion in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 106
+[16-Mar-2025 18:11:29 UTC] Download URL: Array
+[16-Mar-2025 18:11:29 UTC] PHP Warning:  Array to string conversion in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 118
+[16-Mar-2025 18:11:29 UTC] Download URL: Array
+[16-Mar-2025 18:11:29 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(120): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 18:12:35 UTC] Download URL: 1
+[16-Mar-2025 18:12:35 UTC] Download URL: 1
+[16-Mar-2025 18:12:35 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(120): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 18:12:40 UTC] Download URL: 1
+[16-Mar-2025 18:12:40 UTC] Download URL: 1
+[16-Mar-2025 18:12:40 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(120): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 19:46:08 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[16-Mar-2025 19:46:08 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[16-Mar-2025 19:46:08 UTC] Cron unschedule event error for hook: upgrader_scheduled_cleanup, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[51]}
+[16-Mar-2025 19:46:26 UTC] Download URL: 1
+[16-Mar-2025 19:46:26 UTC] Download URL: 1
+[16-Mar-2025 19:46:26 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(120): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 19:48:38 UTC] Download URL: 1
+[16-Mar-2025 19:48:38 UTC] Download URL: 1
+[16-Mar-2025 19:48:38 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(122): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 19:49:19 UTC] 1
+[16-Mar-2025 19:49:19 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(122): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 19:50:09 UTC] Array
+(
+    [url] => http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+    [is_external] => 
+    [nofollow] => 
+    [custom_attributes] => 
+)
+
+[16-Mar-2025 19:50:09 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(122): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 19:50:40 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 19:50:40 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php:4467
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4467): ltrim(Array)
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4593): esc_url(Array, NULL, 'db')
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php(4575): sanitize_url(Array, NULL)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php(122): esc_url_raw(Array)
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor-pro\modules\forms\classes\ajax-handler.php(159): Download_Action_After_Submit->run(Object(ElementorPro\Modules\Forms\Classes\Form_Record), Object(ElementorPro\Modules\Forms\Classes\Ajax_Handler))
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\formatting.php on line 4467
+[16-Mar-2025 19:52:19 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 19:52:19 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 19:55:46 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 19:55:46 UTC] Array
+(
+    [scheme] => http
+    [host] => better-wordpress.local
+    [path] => /wp-content/uploads/2025/03/Galaxie.pdf
+)
+
+[16-Mar-2025 19:56:42 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 19:56:42 UTC] Array
+(
+    [scheme] => http
+    [host] => better-wordpress.local
+    [path] => /wp-content/uploads/2025/03/Galaxie.pdf
+)
+
+[16-Mar-2025 19:56:42 UTC] 1
+[16-Mar-2025 19:56:42 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:00:35 UTC] PHP Warning:  filesize(): stat failed for http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 142
+[16-Mar-2025 20:02:32 UTC] Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [server] => nginx/1.26.1
+                    [date] => Sun, 16 Mar 2025 20:02:32 GMT
+                    [content-type] => application/pdf
+                    [content-length] => 709576
+                    [last-modified] => Sun, 16 Mar 2025 17:20:02 GMT
+                    [etag] => "67d70842-ad3c8"
+                    [accept-ranges] => bytes
+                )
+
+        )
+
+    [body] => %PDF-1.4%‚„œ”
+129 0 obj<</Linearized 1/L 709576/O 131/E 701496/N 1/T 706880/H [ 3216 474]>>endobj             xref
+129 146
+0000000016 00000 n
+0000003866 00000 n
+0000004039 00000 n
+0000014347 00000 n
+0000014696 00000 n
+0000015366 00000 n
+0000015560 00000 n
+0000015890 00000 n
+0000016167 00000 n
+0000016347 00000 n
+0000038424 00000 n
+0000050698 00000 n
+0000059213 00000 n
+0000059856 00000 n
+0000067220 00000 n
+0000087070 00000 n
+0000101525 00000 n
+0000101894 00000 n
+0000102264 00000 n
+0000120842 00000 n
+0000143735 00000 n
+0000143813 00000 n
+0000143927 00000 n
+0000144002 00000 n
+0000144081 00000 n
+0000144198 00000 n
+0000144347 00000 n
+0000144639 00000 n
+0000144694 00000 n
+0000144810 00000 n
+0000144922 00000 n
+0000145045 00000 n
+0000145158 00000 n
+0000145282 00000 n
+0000145398 00000 n
+0000146678 00000 n
+0000146977 00000 n
+0000147339 00000 n
+0000147423 00000 n
+0000152145 00000 n
+0000152663 00000 n
+0000153182 00000 n
+0000153289 00000 n
+0000154577 00000 n
+0000154851 00000 n
+0000157770 00000 n
+0000158129 00000 n
+0000158537 00000 n
+0000159554 00000 n
+0000159844 00000 n
+0000160178 00000 n
+0000160635 00000 n
+0000160916 00000 n
+0000161221 00000 n
+0000163637 00000 n
+0000164005 00000 n
+0000164439 00000 n
+0000165767 00000 n
+0000166072 00000 n
+0000166415 00000 n
+0000167987 00000 n
+0000168292 00000 n
+0000168650 00000 n
+0000177035 00000 n
+0000177074 00000 n
+0000212491 00000 n
+0000212530 00000 n
+0000216696 00000 n
+0000216735 00000 n
+0000221462 00000 n
+0000221501 00000 n
+0000225546 00000 n
+0000225585 00000 n
+0000230312 00000 n
+0000230351 00000 n
+0000265768 00000 n
+0000265807 00000 n
+0000265885 00000 n
+0000265968 00000 n
+0000266017 00000 n
+0000268220 00000 n
+0000364474 00000 n
+0000364858 00000 n
+0000365290 00000 n
+0000365866 00000 n
+0000366476 00000 n
+0000366670 00000 n
+0000367001 00000 n
+0000367231 00000 n
+0000376165 00000 n
+0000376204 00000 n
+0000379090 00000 n
+0000379167 00000 n
+0000379222 00000 n
+0000379270 00000 n
+0000379301 00000 n
+0000379378 00000 n
+0000379491 00000 n
+0000400634 00000 n
+0000400963 00000 n
+0000401029 00000 n
+0000401145 00000 n
+0000422288 00000 n
+0000425019 00000 n
+0000425402 00000 n
+0000425479 00000 n
+0000425510 00000 n
+0000425587 00000 n
+0000448963 00000 n
+0000449290 00000 n
+0000449356 00000 n
+0000449472 00000 n
+0000472848 00000 n
+0000475961 00000 n
+0000476322 00000 n
+0000476399 00000 n
+0000476422 00000 n
+0000476500 00000 n
+0000476613 00000 n
+0000476689 00000 n
+0000497151 00000 n
+0000497479 00000 n
+0000497760 00000 n
+0000497826 00000 n
+0000497942 00000 n
+0000498019 00000 n
+0000500513 00000 n
+0000500830 00000 n
+0000500907 00000 n
+0000500938 00000 n
+0000501015 00000 n
+0000525317 00000 n
+0000525648 00000 n
+0000525714 00000 n
+0000525830 00000 n
+0000550132 00000 n
+0000553915 00000 n
+0000554298 00000 n
+0000554376 00000 n
+0000556456 00000 n
+0000700515 00000 n
+0000700936 00000 n
+0000701014 00000 n
+0000701434 00000 n
+0000003690 00000 n
+0000003216 00000 n
+trailer<</Size 275/Root 130 0 R/Info 7 0 R/ID[<8E3495D6FE774221AFDA19A7F9277F5F><890EB39283134111B63FCB0076BFC292>]/Prev 706868/XRefStm 3690>>startxref0%%EOF  274 0 obj<</C 420/Filter/FlateDecode/I 442/L 404/Length 381/S 42>>stream
+hﬁlè=HQÖø˚fVwf\Wq1à,Å¶qEVyÖ+ëE„Ü∞Å
+[XÖ◊(ÅÄLëXYX(I`QÏR<å⁄§l,”¡*] /*!/Œπ˜\Ó∞—%n-Ò¯◊H'é˙„Ík∑Ä<π0£€‚∞ìèîmÛwUõ∫ü˘yê≥AΩÛsÎÏ◊URUô…u}à9gÜœ»2ox¢RcöRõÚû9‘-:Uf»_∑]WçñI)ÈÊ˙#-ƒz∏‡˜Jë◊&[´¡4S∫£ﬁˆBÓ·Ãø*œ“=F‘É4Y?cÖ1C÷ª47¢;q¬m/—`ﬁé^l»+^ÍÓ$Ëu7è”tıÆDV}≥^åq◊(ºX™CŸ®∫‘*Fm”n8#M¥≤ó¯ñá‰G˜íæßR!2¸ô¸úh‰◊¢(ä–¶N8v‹f7∞@~ﬂ∂j>1Áƒ˜+E•zt√
+[16-Mar-2025 20:02:32 UTC] 709576
+[16-Mar-2025 20:02:32 UTC] %PDF-1.4%‚„œ”
+129 0 obj<</Linearized 1/L 709576/O 131/E 701496/N 1/T 706880/H [ 3216 474]>>endobj             xref
+129 146
+0000000016 00000 n
+0000003866 00000 n
+0000004039 00000 n
+0000014347 00000 n
+0000014696 00000 n
+0000015366 00000 n
+0000015560 00000 n
+0000015890 00000 n
+0000016167 00000 n
+0000016347 00000 n
+0000038424 00000 n
+0000050698 00000 n
+0000059213 00000 n
+0000059856 00000 n
+0000067220 00000 n
+0000087070 00000 n
+0000101525 00000 n
+0000101894 00000 n
+0000102264 00000 n
+0000120842 00000 n
+0000143735 00000 n
+0000143813 00000 n
+0000143927 00000 n
+0000144002 00000 n
+0000144081 00000 n
+0000144198 00000 n
+0000144347 00000 n
+0000144639 00000 n
+0000144694 00000 n
+0000144810 00000 n
+0000144922 00000 n
+0000145045 00000 n
+0000145158 00000 n
+0000145282 00000 n
+0000145398 00000 n
+0000146678 00000 n
+0000146977 00000 n
+0000147339 00000 n
+0000147423 00000 n
+0000152145 00000 n
+0000152663 00000 n
+0000153182 00000 n
+0000153289 00000 n
+0000154577 00000 n
+0000154851 00000 n
+0000157770 00000 n
+0000158129 00000 n
+0000158537 00000 n
+0000159554 00000 n
+0000159844 00000 n
+0000160178 00000 n
+0000160635 00000 n
+0000160916 00000 n
+0000161221 00000 n
+0000163637 00000 n
+0000164005 00000 n
+0000164439 00000 n
+0000165767 00000 n
+0000166072 00000 n
+0000166415 00000 n
+0000167987 00000 n
+0000168292 00000 n
+0000168650 00000 n
+0000177035 00000 n
+0000177074 00000 n
+0000212491 00000 n
+0000212530 00000 n
+0000216696 00000 n
+0000216735 00000 n
+0000221462 00000 n
+0000221501 00000 n
+0000225546 00000 n
+0000225585 00000 n
+0000230312 00000 n
+0000230351 00000 n
+0000265768 00000 n
+0000265807 00000 n
+0000265885 00000 n
+0000265968 00000 n
+0000266017 00000 n
+0000268220 00000 n
+0000364474 00000 n
+0000364858 00000 n
+0000365290 00000 n
+0000365866 00000 n
+0000366476 00000 n
+0000366670 00000 n
+0000367001 00000 n
+0000367231 00000 n
+0000376165 00000 n
+0000376204 00000 n
+0000379090 00000 n
+0000379167 00000 n
+0000379222 00000 n
+0000379270 00000 n
+0000379301 00000 n
+0000379378 00000 n
+0000379491 00000 n
+0000400634 00000 n
+0000400963 00000 n
+0000401029 00000 n
+0000401145 00000 n
+0000422288 00000 n
+0000425019 00000 n
+0000425402 00000 n
+0000425479 00000 n
+0000425510 00000 n
+0000425587 00000 n
+0000448963 00000 n
+0000449290 00000 n
+0000449356 00000 n
+0000449472 00000 n
+0000472848 00000 n
+0000475961 00000 n
+0000476322 00000 n
+0000476399 00000 n
+0000476422 00000 n
+0000476500 00000 n
+0000476613 00000 n
+0000476689 00000 n
+0000497151 00000 n
+0000497479 00000 n
+0000497760 00000 n
+0000497826 00000 n
+0000497942 00000 n
+0000498019 00000 n
+0000500513 00000 n
+0000500830 00000 n
+0000500907 00000 n
+0000500938 00000 n
+0000501015 00000 n
+0000525317 00000 n
+0000525648 00000 n
+0000525714 00000 n
+0000525830 00000 n
+0000550132 00000 n
+0000553915 00000 n
+0000554298 00000 n
+0000554376 00000 n
+0000556456 00000 n
+0000700515 00000 n
+0000700936 00000 n
+0000701014 00000 n
+0000701434 00000 n
+0000003690 00000 n
+0000003216 00000 n
+trailer<</Size 275/Root 130 0 R/Info 7 0 R/ID[<8E3495D6FE774221AFDA19A7F9277F5F><890EB39283134111B63FCB0076BFC292>]/Prev 706868/XRefStm 3690>>startxref0%%EOF  274 0 obj<</C 420/Filter/FlateDecode/I 442/L 404/Length 381/S 42>>stream
+hﬁlè=HQÖø˚fVwf\Wq1à,Å¶qEVyÖ+ëE„Ü∞Å
+[XÖ◊(ÅÄLëXYX(I`QÏR<å⁄§l,”¡*] /*!/Œπ˜\Ó∞—%n-Ò¯◊H'é˙„Ík∑Ä<π0£€‚∞ìèîmÛwUõ∫ü˘yê≥AΩÛsÎÏ◊URUô…u}à9gÜœ»2ox¢RcöRõÚû9‘-:Uf»_∑]WçñI)ÈÊ˙#-ƒz∏‡˜Jë◊&[´¡4S∫£ﬁˆBÓ·Ãø*œ“=F‘É4Y?cÖ1C÷ª47¢;q¬m/—`ﬁé^l»+^ÍÓ$Ëu7è”tıÆDV}≥^åq◊(ºX™CŸ®∫‘*Fm”n8#M¥≤ó¯ñá‰G˜íæßR!2¸ô¸úh‰◊¢(ä–¶N8v‹f7∞@~ﬂ∂j>1Áƒ˜+E•zt√
+[16-Mar-2025 20:04:05 UTC] PHP Warning:  filesize(): stat failed for Galaxie.pdf in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 142
+[16-Mar-2025 20:05:01 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:05:01 UTC] Array
+(
+    [scheme] => http
+    [host] => better-wordpress.local
+    [path] => /wp-content/uploads/2025/03/Galaxie.pdf
+)
+
+[16-Mar-2025 20:05:01 UTC] 1
+[16-Mar-2025 20:05:01 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:05:01 UTC] 709576
+[16-Mar-2025 20:06:11 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:06:11 UTC] Array
+(
+    [scheme] => http
+    [host] => better-wordpress.local
+    [path] => /wp-content/uploads/2025/03/Galaxie.pdf
+)
+
+[16-Mar-2025 20:06:11 UTC] 1
+[16-Mar-2025 20:06:11 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:06:11 UTC] 709576
+[16-Mar-2025 20:06:35 UTC] PHP Parse error:  syntax error, unexpected token "public" in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 204
+[16-Mar-2025 20:06:35 UTC] PHP Parse error:  syntax error, unexpected token "public" in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 204
+[16-Mar-2025 20:06:50 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:06:50 UTC] Array
+(
+    [scheme] => http
+    [host] => better-wordpress.local
+    [path] => /wp-content/uploads/2025/03/Galaxie.pdf
+)
+
+[16-Mar-2025 20:06:50 UTC] 1
+[16-Mar-2025 20:06:50 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:06:50 UTC] 709576
+[16-Mar-2025 20:08:17 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:08:17 UTC] Array
+(
+    [scheme] => http
+    [host] => better-wordpress.local
+    [path] => /wp-content/uploads/2025/03/Galaxie.pdf
+)
+
+[16-Mar-2025 20:08:17 UTC] 1
+[16-Mar-2025 20:08:17 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:08:17 UTC] 709576
+[16-Mar-2025 20:08:17 UTC] 1
+[16-Mar-2025 20:08:17 UTC] 2
+[16-Mar-2025 20:08:17 UTC] 3
+[16-Mar-2025 20:08:17 UTC] 4
+[16-Mar-2025 20:08:17 UTC] 5
+[16-Mar-2025 20:08:17 UTC] 6
+[16-Mar-2025 20:08:17 UTC] 7
+[16-Mar-2025 20:08:17 UTC] 8
+[16-Mar-2025 20:08:39 UTC] http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:08:39 UTC] Array
+(
+    [scheme] => http
+    [host] => better-wordpress.local
+    [path] => /wp-content/uploads/2025/03/Galaxie.pdf
+)
+
+[16-Mar-2025 20:08:39 UTC] 1
+[16-Mar-2025 20:08:39 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:08:39 UTC] 709576
+[16-Mar-2025 20:08:39 UTC] 1
+[16-Mar-2025 20:08:39 UTC] 2
+[16-Mar-2025 20:08:39 UTC] 3
+[16-Mar-2025 20:08:39 UTC] 4
+[16-Mar-2025 20:08:39 UTC] 5
+[16-Mar-2025 20:08:39 UTC] 6
+[16-Mar-2025 20:08:39 UTC] 7
+[16-Mar-2025 20:08:39 UTC] 8
+[16-Mar-2025 20:08:39 UTC] 9
+[16-Mar-2025 20:16:13 UTC] PHP Warning:  filesize(): stat failed for /wp-content/uploads/2025/03/Galaxie.pdf in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 154
+[16-Mar-2025 20:16:13 UTC] PHP Warning:  readfile(/wp-content/uploads/2025/03/Galaxie.pdf): Failed to open stream: No such file or directory in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 163
+[16-Mar-2025 20:17:51 UTC] PHP Warning:  filesize(): stat failed for public//wp-content/uploads/2025/03/Galaxie.pdf in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 154
+[16-Mar-2025 20:17:51 UTC] PHP Warning:  readfile(public//wp-content/uploads/2025/03/Galaxie.pdf): Failed to open stream: No such file or directory in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 163
+[16-Mar-2025 20:18:09 UTC] PHP Warning:  filesize(): stat failed for public/wp-content/uploads/2025/03/Galaxie.pdf in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 154
+[16-Mar-2025 20:18:09 UTC] PHP Warning:  readfile(public/wp-content/uploads/2025/03/Galaxie.pdf): Failed to open stream: No such file or directory in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 163
+[16-Mar-2025 20:26:36 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:27:16 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:27:16 UTC] PHP Warning:  filesize(): stat failed for http://better-wordpress.local/wp-content/uploads/2025/03/Galaxie.pdf in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\actions\download.php on line 143
+[16-Mar-2025 20:27:16 UTC] 
+[16-Mar-2025 20:27:41 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:27:41 UTC] 709576
+[16-Mar-2025 20:28:02 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:28:02 UTC] 709576
+[16-Mar-2025 20:28:19 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:28:19 UTC] 709576
+[16-Mar-2025 20:28:33 UTC] C:\Users\jocel\Local Sites\better-wordpress\app\public/wp-content/uploads/2025/03/Galaxie.pdf
+[16-Mar-2025 20:28:33 UTC] 709576
+[16-Mar-2025 21:24:15 UTC] ElementorPro\Modules\Forms\Submissions\Actions\Save_To_Database Object
+(
+    [submission_id:ElementorPro\Modules\Forms\Submissions\Actions\Save_To_Database:private] => 70
+    [actions_succeeded_count:ElementorPro\Modules\Forms\Submissions\Actions\Save_To_Database:private] => 0
+)
+
+[16-Mar-2025 21:24:15 UTC] Download_Action_After_Submit Object
+(
+)
+
+[16-Mar-2025 21:24:15 UTC] ElementorPro\Modules\Forms\Actions\Email Object
+(
+)
+
+[16-Mar-2025 21:29:00 UTC] Automatic updates starting...
+[16-Mar-2025 21:29:00 UTC]   Automatic plugin updates starting...
+[16-Mar-2025 21:29:00 UTC]   Automatic plugin updates complete.
+[16-Mar-2025 21:29:00 UTC] Automatic updates complete.
+[16-Mar-2025 22:18:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function download_elementor_form_action_pre_render(), 1 passed in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\download-elementor-form-action.php:40
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): download_elementor_form_action_pre_render('')
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor\includes\frontend.php(634): do_action('elementor/front...')
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor\includes\frontend.php(832): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->wp_footer('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\general-template.php(3080): do_action('wp_footer')
+#9 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\template-canvas.php(25): wp_footer()
+#10 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\jocel\\...')
+#11 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-blog-header.php(19): require_once('C:\\Users\\jocel\\...')
+#12 C:\Users\jocel\Local Sites\better-wordpress\app\public\index.php(17): require('C:\\Users\\jocel\\...')
+#13 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\download-elementor-form-action.php on line 40
+[16-Mar-2025 22:18:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function download_elementor_form_action_pre_render(), 1 passed in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\download-elementor-form-action.php:40
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): download_elementor_form_action_pre_render('')
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor\includes\frontend.php(634): do_action('elementor/front...')
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor\includes\frontend.php(832): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->wp_footer('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\general-template.php(3080): do_action('wp_footer')
+#9 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\template-canvas.php(25): wp_footer()
+#10 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\jocel\\...')
+#11 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-blog-header.php(19): require_once('C:\\Users\\jocel\\...')
+#12 C:\Users\jocel\Local Sites\better-wordpress\app\public\index.php(17): require('C:\\Users\\jocel\\...')
+#13 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\download-elementor-form-action.php on line 40
+[16-Mar-2025 22:20:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function download_elementor_form_action_pre_render(), 1 passed in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php on line 324 and exactly 2 expected in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\download-elementor-form-action.php:40
+Stack trace:
+#0 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): download_elementor_form_action_pre_render('')
+#1 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor\includes\frontend.php(619): do_action('elementor/front...')
+#4 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\elementor\includes\frontend.php(832): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->wp_footer('')
+#6 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\general-template.php(3080): do_action('wp_footer')
+#9 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\template-canvas.php(25): wp_footer()
+#10 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\jocel\\...')
+#11 C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-blog-header.php(19): require_once('C:\\Users\\jocel\\...')
+#12 C:\Users\jocel\Local Sites\better-wordpress\app\public\index.php(17): require('C:\\Users\\jocel\\...')
+#13 {main}
+  thrown in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-content\plugins\download-elementor-form-action\download-elementor-form-action.php on line 40
+[21-Mar-2025 15:55:11 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114
+[21-Mar-2025 15:55:11 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114
+[21-Mar-2025 15:55:11 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114
+[21-Mar-2025 15:56:25 UTC] Automatic updates starting...
+[21-Mar-2025 15:56:25 UTC]   Automatic plugin updates starting...
+[21-Mar-2025 15:56:25 UTC]   Automatic plugin updates complete.
+[21-Mar-2025 15:56:25 UTC] Automatic updates complete.
+[21-Mar-2025 17:13:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n‚Äôa pu √™tre √©tablie car l‚Äôordinateur cible l‚Äôa express√©ment refus√©e in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\class-wpdb.php on line 1982
+[21-Mar-2025 17:13:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\class-wpdb.php on line 1982
+[21-Mar-2025 17:13:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\class-wpdb.php on line 1982
+[21-Mar-2025 17:13:17 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114
+[21-Mar-2025 17:15:13 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114

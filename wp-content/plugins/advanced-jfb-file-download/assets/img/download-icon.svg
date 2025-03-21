@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" fill="#f0f0f0"/>
+  <text x="32" y="37" font-size="12" text-anchor="middle" fill="#333">Icon</text>
+</svg>
