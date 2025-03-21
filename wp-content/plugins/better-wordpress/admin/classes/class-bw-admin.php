@@ -22,13 +22,20 @@ require_once plugin_dir_path(__FILE__) . 'class-bw-menus.php';
 class BW_Admin {
 
     /**
+     * Instance of BW_Menus class
+     *
+     * @var BW_Menus
+     */
+    private $BW_Menus;
+
+    /**
      * Initialize the class and set its properties.
      *
      * @since    1.0.0
      */
     public function __construct() {
         // Constructor
-
+        $this->init();
     }
 
     public function init(){
@@ -39,7 +46,7 @@ class BW_Admin {
         // Register the JavaScript for the admin area
         add_action('admin_enqueue_scripts', array($this, 'enqueue_scripts'));
         // Initialize the admin menus
-        $this->init_menus();
+        $this->BW_Menus = new BW_Menus();
     }
 
     /**
@@ -59,13 +66,6 @@ class BW_Admin {
     public function enqueue_scripts() {
         // Enqueue admin scripts
     }
-    /**
-     * Initialize the admin menus using BW_Menus class.
-     *
-     * @since    1.0.0
-     */
-    public function init_menus() {
-        $menus = new BW_Menus();
-        $menus->register_menus();
-    }
+
+
 }

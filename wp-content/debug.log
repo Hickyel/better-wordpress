@@ -762,3 +762,87 @@ Stack trace:
 #7 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
 #8 {main}
   thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 24
+[21-Mar-2025 19:06:14 UTC] PHP Warning:  require_once(C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin/admin/classes/class-bw-menus.php): Failed to open stream: No such file or directory in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php on line 13
+[21-Mar-2025 19:06:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin/admin/classes/class-bw-menus.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php:13
+Stack trace:
+#0 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\better-wordpress.php(23): require_once()
+#1 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-settings.php(526): include_once('C:\\Users\\jocel\\...')
+#2 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-config.php(104): require_once('C:\\Users\\jocel\\...')
+#3 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\jocel\\...')
+#4 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
+#5 {main}
+  thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php on line 13
+[21-Mar-2025 19:08:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php:24
+Stack trace:
+#0 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(69): BW_Menus->register_menus()
+#1 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(42): BW_Admin->init_menus()
+#2 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php(9): BW_Admin->init()
+#3 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\better-wordpress.php(23): require_once('C:\\Users\\jocel\\...')
+#4 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-settings.php(526): include_once('C:\\Users\\jocel\\...')
+#5 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-config.php(104): require_once('C:\\Users\\jocel\\...')
+#6 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\jocel\\...')
+#7 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
+#8 {main}
+  thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 24
+[21-Mar-2025 19:09:10 UTC] PHP Parse error:  Unterminated comment starting line 12 in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php on line 12
+[21-Mar-2025 19:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php:24
+Stack trace:
+#0 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(69): BW_Menus->register_menus()
+#1 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(42): BW_Admin->init_menus()
+#2 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php(9): BW_Admin->init()
+#3 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\better-wordpress.php(23): require_once('C:\\Users\\jocel\\...')
+#4 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-settings.php(526): include_once('C:\\Users\\jocel\\...')
+#5 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-config.php(104): require_once('C:\\Users\\jocel\\...')
+#6 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\jocel\\...')
+#7 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
+#8 {main}
+  thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 24
+[21-Mar-2025 19:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php:24
+Stack trace:
+#0 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(70): BW_Menus->register_menus()
+#1 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(42): BW_Admin->init_menus()
+#2 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php(9): BW_Admin->init()
+#3 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\better-wordpress.php(23): require_once('C:\\Users\\jocel\\...')
+#4 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-settings.php(526): include_once('C:\\Users\\jocel\\...')
+#5 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-config.php(104): require_once('C:\\Users\\jocel\\...')
+#6 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\jocel\\...')
+#7 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
+#8 {main}
+  thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 24
+[21-Mar-2025 19:09:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php:24
+Stack trace:
+#0 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(70): BW_Menus->register_menus()
+#1 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(42): BW_Admin->init_menus()
+#2 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php(9): BW_Admin->init()
+#3 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\better-wordpress.php(23): require_once('C:\\Users\\jocel\\...')
+#4 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-settings.php(526): include_once('C:\\Users\\jocel\\...')
+#5 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-config.php(104): require_once('C:\\Users\\jocel\\...')
+#6 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\jocel\\...')
+#7 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
+#8 {main}
+  thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 24
+[21-Mar-2025 19:11:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php:24
+Stack trace:
+#0 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(50): BW_Menus->register_menus()
+#1 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php(9): BW_Admin->init()
+#2 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\better-wordpress.php(23): require_once('C:\\Users\\jocel\\...')
+#3 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-settings.php(526): include_once('C:\\Users\\jocel\\...')
+#4 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-config.php(104): require_once('C:\\Users\\jocel\\...')
+#5 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\jocel\\...')
+#6 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
+#7 {main}
+  thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 24
+[21-Mar-2025 19:11:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_menu_page() in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php:24
+Stack trace:
+#0 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-admin.php(50): BW_Menus->register_menus()
+#1 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\admin-init.php(9): BW_Admin->init()
+#2 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\better-wordpress.php(23): require_once('C:\\Users\\jocel\\...')
+#3 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-settings.php(526): include_once('C:\\Users\\jocel\\...')
+#4 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-config.php(104): require_once('C:\\Users\\jocel\\...')
+#5 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\jocel\\...')
+#6 C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\jocel\\...')
+#7 {main}
+  thrown in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-content\plugins\better-wordpress\admin\classes\class-bw-menus.php on line 24
+[21-Mar-2025 19:29:26 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\class-wpdb.php on line 1982
+[21-Mar-2025 19:29:31 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114
+[21-Mar-2025 19:29:31 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jocel\OneDrive\Local Sites\better-wordpress\app\public\wp-includes\functions.php on line 6114

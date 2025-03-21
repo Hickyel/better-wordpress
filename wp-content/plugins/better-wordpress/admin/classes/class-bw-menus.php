@@ -81,5 +81,3 @@ class BW_Menus {
         <?php
     }
 }
-
-new BW_Menus();
