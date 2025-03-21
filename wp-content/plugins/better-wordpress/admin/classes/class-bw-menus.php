@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Class for managing admin menus
  *
@@ -9,18 +10,21 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-class BW_Menus {
+class BW_Menus
+{
     /**
      * Constructor
      */
-    public function __construct() {
+    public function __construct()
+    {
         add_action('admin_menu', array($this, 'register_menus'));
     }
 
     /**
      * Register admin menus
      */
-    public function register_menus() {
+    public function register_menus()
+    {
         add_menu_page(
             __('Better WordPress', 'better-wordpress'),
             __('Better WP', 'better-wordpress'),
@@ -33,67 +37,40 @@ class BW_Menus {
 
         add_submenu_page(
             'better-wordpress',
-            __('Settings Better WordPress',"better-wordpress"),
-            __('Settings',"better-wordpress"),
+            __('Settings Better WordPress', "better-wordpress"),
+            __('Settings', "better-wordpress"),
             'manage_options',
             'bw-settings',
             array($this, 'display_settings_page')
-        ); 
+        );
     }
 
     /**
      * Display main admin page
      */
-    public function main_page() {
+    public function main_page()
+    {
         // Check user capabilities
         if (!current_user_can('manage_options')) {
             return;
         }
 
-        ?>
+?>
 
         <div class="wrap">
-            <?php
-                function bw_enqueue_react_assets($hook_suffix) {
-                    // Remplace 'toplevel_page_bw_options' par le hook approprié
-                    if ($hook_suffix !== 'toplevel_page_bw_options') {
-                        return;
-                    }
-                
-                    $build_url = plugin_dir_url(__FILE__) . '../assets/react-build/';
-                
-                    wp_enqueue_style(
-                        'bw-react-style',
-                        $build_url . 'assets/index.css',
-                        [],
-                        null
-                    );
-                
-                    wp_enqueue_script(
-                        'bw-react-app',
-                        $build_url . 'assets/index.js',
-                        [],
-                        null,
-                        true
-                    );
-                
-                    // Ajouter le conteneur pour l'application React
-                    add_action('admin_footer', function () {
-                        echo '<div id="bw-react-root"></div>';
-                    });
-                }
-                add_action('admin_enqueue_scripts', 'bw_enqueue_react_assets');
-            ?>
+            <h1>Interface React</h1>
+            <div id="bw-react-root"></div>
         </div>
+
         <?php
-        
-        
+
     }
 
     /**
      * Display settings page
      */
-    public function display_settings_page() {
+    public function display_settings_page()
+    {
         // Check user capabilities
         if (!current_user_can('manage_options')) {
             return;
@@ -110,6 +87,6 @@ class BW_Menus {
                 ?>
             </form>
         </div>
-        <?php
+<?php
     }
 }
