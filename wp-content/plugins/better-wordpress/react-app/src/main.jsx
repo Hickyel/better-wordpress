@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import DashboardApp from './components/DashboardApp'
 import SettingsApp from './components/SettingsApp'
 
-const dashboardRoot = document.getElementById('bw-dashboard-root')
+/*const dashboardRoot = document.getElementById('bw-dashboard-root')
 const settingsRoot = document.getElementById('bw-settings-root')
 
 if (dashboardRoot) {
@@ -12,4 +12,6 @@ if (dashboardRoot) {
 
 if (settingsRoot) {
   ReactDOM.createRoot(settingsRoot).render(<SettingsApp />)
-}
+}*/
+
+

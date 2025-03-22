@@ -1,5 +1,4 @@
 import React from 'react'
-import 'DashboardApp.css'
 import { HashRouter, Routes, Route, NavLink } from 'react-router-dom'
 
 import Overview from '../pages/Overview'
