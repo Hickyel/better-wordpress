@@ -1,4 +1,5 @@
 import React from 'react'
+import 'DashboardApp.css'
 import { HashRouter, Routes, Route, NavLink } from 'react-router-dom'
 
 import Overview from '../pages/Overview'
@@ -7,8 +8,8 @@ import Stats from '../pages/Stats'
 const DashboardApp = () => {
   return (
     <HashRouter>
-      <div className="p-6 font-sans">
-        <h2 className="text-2xl font-bold mb-4">⚙️ Better WP Dashboard</h2>
+      <div className="p-4 font-sans">
+        <h2 className="text-2xl font-bold mb-4">Better WP Dashboard</h2>
 
         <nav className="flex gap-4 border-b pb-2 mb-4">
           <NavLink
